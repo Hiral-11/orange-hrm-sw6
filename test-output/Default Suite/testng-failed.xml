@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="orange-hrm-cucumber(failed)">
+    <classes>
+      <class name="com.orangehrmlive.demo.runner.RegressionRunCukeTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="7 9 11 12 13"/>
+        </methods>
+      </class> <!-- com.orangehrmlive.demo.runner.RegressionRunCukeTest -->
+    </classes>
+  </test> <!-- orange-hrm-cucumber(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
